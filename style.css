@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(165, 92, 159);
+}
+
+#mainWindow {
+  width: 95%;
+  background-color: white;
+}
+
+.mainWindow_margin {
+  margin: 20px auto;
+}
+
+#monthTable__head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.monthTable__head_margin {
+  padding: 0 20px 20px 20px;
+}
+
+#monthTable__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.margin_right_10 {
+  margin-right: 10px;
+}
+
+#monthTable__names {
+  display: flex;
+  background-color: rgb(222, 172, 228);
+}
+
+.monthTable__name {
+  /* border: 1px solid black; */
+  width: 14.285%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#monthTable__cells {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.monthTable__cell {
+  border: 1px solid rgb(222, 172, 228);
+  width: 14.285%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.monthTable__cell_preview {
+  background-color: rgb(239, 202, 243);
+  color: rgb(195, 144, 201);
+}
+
+.line {
+  height: 1px;
+  background-color: rgb(165, 92, 159);
+}
+
+.lineMargin {
+  margin: 20px 0;
+}
+
+.formEvent_margin {
+  margin-left: 20px;
+  padding-top: 20px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calendar</title>
+  </head>
+  <body>
+    <div id="mainWindow" class="mainWindow_margin">
+      <form id="formEvent" class="formEvent_margin">
+        <input type="date" placeholder="Start date" id="inputStart" />
+        <input type="date" placeholder="End date" id="inputEnd" />
+        <button>OK</button>
+      </form>
+      <div class="line lineMargin"></div>
+      <div id="monthTable">
+        <div id="monthTable__head" class="monthTable__head_margin">
+          <div id="monthTable__arrowLeft">
+            <button id="monthTable__arrowLeftBtn">←</button>
+          </div>
+          <div id="monthTable__header">
+            <div id="monthTable__month" class="margin_right_10"></div>
+            <div id="monthTable__year"></div>
+          </div>
+          <div id="monthTable__arrowRight">
+            <button id="monthTable__arrowRightBtn">→</button>
+          </div>
+        </div>
+        <div id="monthTable__names">
+          <div class="monthTable__name">SUNDAY</div>
+          <div class="monthTable__name">MONDAY</div>
+          <div class="monthTable__name">TUESDAY</div>
+          <div class="monthTable__name">WEDNESDAY</div>
+          <div class="monthTable__name">THURSDAY</div>
+          <div class="monthTable__name">FRIDAY</div>
+          <div class="monthTable__name">SATURDAY</div>
+        </div>
+        <div id="monthTable__cells"></div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
