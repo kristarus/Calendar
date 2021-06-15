@@ -1,4 +1,4 @@
-// ==============================DATA===============================
+//==============================DATA===============================
 
 const monthTable__arrowLeftBtn = document.querySelector(
   "#monthTable__arrowLeftBtn"
@@ -8,11 +8,11 @@ const monthTable__arrowRightBtn = document.querySelector(
 );
 let currentData = new Date();
 
-// =============================PROGRAM=============================
+//=============================PROGRAM=============================
 
 drawMonthTable(currentData);
 
-// =============================EVENTS==============================
+//=============================EVENTS==============================
 
 monthTable__arrowRightBtn.addEventListener("click", (event) => {
   const nextMonth = getNextMonth(currentData);
@@ -28,7 +28,7 @@ monthTable__arrowLeftBtn.addEventListener("click", (event) => {
   drawMonthTable(currentData);
 });
 
-// ============================FUNCTIONS============================
+//============================FUNCTIONS============================
 
 function getCurrentMonth(date) {
   return date.getMonth();
